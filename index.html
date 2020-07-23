@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Practice</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="work_with_persons_login hidden">
+		<input type="text" placeholder="Enter login" id="log_login_input">
+		<input type="password" placeholder="Enter password" id="log_pass_input">
+		<div class="work_with_persons_btn_wrapper">
+			<input type="button" value="Login" id="log_btn">
+			<input type="button" value="Registrate" id="go_to_registrate_btn">
+		</div>
+	</div>
+	<div class="work_with_persons_registrate hidden">
+		<input type="text" id="reg_login_input" placeholder="Enter your login">
+		<input type="password" id="reg_pass_input_1" placeholder="Enter password">
+		<input type="password" id="reg_pass_input_2" placeholder="Repeat your password">
+		<div class="work_with_persons_btn_wrapper">
+			<input type="button" value="Registrate" id="reg_btn">
+			<input type="button" value="Back" id="go_to_log_btn">
+		</div>
+	</div>
+	<div class="tasks">
+		<div class="list_of_tasks_header">
+			<input type="button" value="Exit from acc" class="hidden">
+		</div>
+		<div class="add_change_task hidden">
+			<input type="text" placeholder="Title">
+			<input type="text" placeholder="Description">
+			<input type="date" >
+			<div class="add_change_task_btn_wrapper">
+				<input type="button" value="Add new task">
+				<input type="button" value="Back" class="go_to_tasks_list_btn">
+			</div>
+		</div>
+		<div class="show_task hidden">
+			<p>
+				Title
+			</p>
+			<p>
+				Description
+			</p>
+			<p>
+				Time of creation
+			</p>
+			<p>
+				Time of last change
+			</p>
+			<p>
+				Time of deadline
+			</p>
+			<input type="button" value="Back" class="go_to_tasks_list_btn">
+		</div>
+		<div class="list_of_tasks">
+			<div class="list_of_tasks_body">
+				<div class="single_task">
+					<div class="task_tree_img">
+						
+					</div>
+					<div class="task_info">
+						<p class="info_title">
+							Test title
+						</p>
+						<p class="info_description">
+							Test description
+						</p>
+						<div>
+							<input type="button" value="Изменить" class="change_task_btn">
+							<input type="button" value="Удалить">
+						</div>
+					</div>
+				</div>
+
+				<div class="single_task">
+					<div class="task_info">
+						<p class="info_title">
+							Test title
+						</p>
+						<p class="info_description">
+							Test description
+						</p>
+					</div>
+					<div class="task_tree_img">
+						
+					</div>
+				</div>
+				<input type="button" value="+" class="add_task_btn">				
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

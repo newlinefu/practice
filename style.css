@@ -1,0 +1,168 @@
+.hidden {
+	display: none;
+}
+
+.work_with_persons_login,
+.work_with_persons_registrate {
+	width: 500px;
+	margin: 100px auto;
+	text-align: center;
+	border: 2px solid black;
+	padding: 20px;
+	border-radius: 6px;
+}
+
+.work_with_persons_login > input, 
+.work_with_persons_registrate > input {
+	display: block;
+	font-size: 20px;
+	width: 80%;
+	margin: 10px auto;
+}
+
+.work_with_persons_btn_wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.work_with_persons_btn_wrapper input {
+	font-size: 18px;
+	padding: 3px;
+}
+
+#go_to_registrate_btn,
+#go_to_log_btn {
+	border: none;
+	outline: none;
+	background-color: inherit;
+	cursor: pointer;
+}
+
+#go_to_registrate_btn:hover,
+#go_to_log_btn:hover {
+	text-decoration: underline;
+}
+
+.tasks {
+	width: 80%;
+	margin: 30px auto;
+}
+
+.list_of_tasks_header {
+	text-align: right;
+	background-color: rgb(255, 100, 0);
+	padding: 20px;
+	border-radius: 6px;
+}
+
+.single_task {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-top: 10px;
+}
+
+.single_task:hover {
+	background-color: rgb(255, 230, 150);
+	transition: 0.3s;
+}
+
+.task_tree_img {
+	width: 220px;
+	height: 250px;
+	background-color: rgb(255, 100, 100);
+}
+
+.task_info {
+	text-align: center;
+	width: 100%;
+}
+
+.task_info > p {
+	font-size: 25px;
+}
+
+.add_task_btn {
+	width: 100%;
+	height: 100px;
+	background-color: inherit;
+	border-radius: 6px;
+	border: 2px dotted rgb(255, 100, 0);
+	margin-top: 10px;
+	font-size: 40px;
+	color: rgb(255, 230, 150);
+	outline: none;
+	cursor: pointer;
+}
+
+.add_change_task {
+	width: 60%;
+	margin: 10px auto;
+}
+
+.add_change_task > input {
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.add_change_task_btn_wrapper {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.add_change_task_btn_wrapper > input,
+.show_task > .go_to_tasks_list_btn {
+	padding: 10px;
+	font-size: 20px;
+	border: 2px solid rgb(255, 100, 0);
+	background-color: inherit;
+	outline: none;
+	color: rgb(255, 100, 0);
+	cursor: pointer;
+	border-radius: 6px;
+}
+
+.add_change_task_btn_wrapper > input:hover,
+.show_task > .go_to_tasks_list_btn:hover {
+	transition: 0.2s;
+	background-color: rgb(255, 230, 150);
+}
+
+.add_change_task_btn_wrapper > input:active,
+.show_task > .go_to_tasks_list_btn:active {
+	background-color: rgb(255, 100, 0);
+	color: white;
+}
+
+.add_task_btn:hover {
+	transition: 0.3s;
+	background-color: rgb(255, 230, 150);
+	color: white;
+}
+
+.add_task_btn:active {
+	color: white;
+	background-color: rgb(255, 100, 0);
+}
+
+.show_task {
+	width: 100%;
+	font-size: 25px;
+	text-align: center;
+}
